@@ -1,6 +1,12 @@
 input.onButtonPressed(Button.B, function () {
     run = 1
-    basic.showIcon(IconNames.Yes)
+    basic.showLeds(`
+        . . # . .
+        . # # # .
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
 })
 let x = 0
 let run = 0
