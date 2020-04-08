@@ -1,11 +1,11 @@
 input.onButtonPressed(Button.B, function () {
     run = 1
     basic.showLeds(`
-        . . # . .
+        # . # . #
         . # # # .
         # # # # #
         . # # # .
-        . . # . .
+        # . # . #
         `)
 })
 let x = 0
